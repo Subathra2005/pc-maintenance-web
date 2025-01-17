@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>firstproject</id>
+    <version>1.0.0</version>
+    <authors>firstproject</authors>
+    <description>Package Description</description>
+    <repository type="git" />
+    <dependencies>
+      <group targetFramework="net8.0-windows7.0">
+        <dependency id="Oracle.ManagedDataAccess.Core" version="23.6.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net8.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="C:\Users\subat\source\repos\firstproject\firstproject\bin\Debug\net8.0-windows\firstproject.runtimeconfig.json" target="lib\net8.0-windows7.0\firstproject.runtimeconfig.json" />
+    <file src="C:\Users\subat\source\repos\firstproject\firstproject\bin\Debug\net8.0-windows\firstproject.dll" target="lib\net8.0-windows7.0\firstproject.dll" />
+  </files>
+</package>
